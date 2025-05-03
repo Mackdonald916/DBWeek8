@@ -91,7 +91,7 @@ SELECT b.title, b.genre, m.first_name, m.last_name, br.borrow_date, br.return_da
 FROM borrowings br
 JOIN books b ON br.book_id = b.book_id
 JOIN members m ON br.member_id = m.member_id;
-
+```
 
 # 📚 Library Management System - Setup Guide
 
